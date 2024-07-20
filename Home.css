@@ -1,0 +1,97 @@
+.home {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color:lightblue;
+  color:black;
+  border-radius: 8px;
+  border-color: black;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.search-form input {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+}
+
+.search-form button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background-color:cornflowerblue;
+  color:black;
+}
+
+.flight-results {
+  display: flex;
+  flex-direction: column;
+}
+
+.flight-card {
+  background-color:aliceblue;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:black;
+  
+}
+
+.flight-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.flight-card-content {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.flight-card-content h3 {
+  margin: 10px 0;
+}
+
+.flight-card-content p {
+  margin: 5px 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://i.pinimg.com/564x/17/42/7c/17427ce0d5637b52ddee0cf2dbce2085.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Optional: Keeps the background fixed while scrolling */
+}
+
+* {
+  box-sizing: border-box;
+}
+.book-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.book-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,22 @@
+.about {
+    padding: 20px;
+    text-align: center;
+    color: black;
+    background-color: transparent;
+    font-size: x-large;
+    
+     
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.pinimg.com/564x/17/42/7c/17427ce0d5637b52ddee0cf2dbce2085.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Optional: Keeps the background fixed while scrolling */
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  

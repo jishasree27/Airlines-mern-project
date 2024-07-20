@@ -1,0 +1,60 @@
+.SignUp{
+  padding: 50px;
+  max-width: 300px;
+  margin: auto;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-size:100%;
+  max-height: 100%;
+  max-width: 30%;
+
+}
+
+.SignUp {
+  text-align: center;
+}
+
+.SignUp form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.SignUp input {
+  margin: 10px ;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.SignUp button {
+  padding: 10px;
+  margin: 8px;
+  font-size: 16px;
+}
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://i.pinimg.com/564x/17/42/7c/17427ce0d5637b52ddee0cf2dbce2085.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Optional: Keeps the background fixed while scrolling */
+}
+
+* {
+  box-sizing: border-box;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #dbdddf;
+  border-top: 1px solid #ddd;
+}
+
+.footer p {
+  margin: 0;
+  color: #657481;
+}
